@@ -6,8 +6,8 @@ const cron = require('node-cron');
 // Database connection details
 const dbConfig = {
     host: 'localhost',
-    user: 'root',
-    password: 'root',
+    user: 'u752316189_akshinde331',
+    password: 'Swapnil@1418',
     database: 'nseoptionchaindata'
 };
 
@@ -292,6 +292,7 @@ if(time == "16:00"){
 }
 console.log('Nifty weekly Schedule the task to run every 5 minutes');
 // cron.schedule('*/1 * * * *', scheduledTask);
+
 
 
 module.exports = scheduledTask;
