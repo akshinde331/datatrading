@@ -8,7 +8,7 @@ const dbConfig = {
     host: 'srv1954.hstgr.io',
     user: 'u752316189_akshinde331',
     password: 'Rock_Star331',
-    database: 'nseoptionchaindata'
+    database: 'u752316189_nseoptionchain'
 };
 
 
@@ -296,5 +296,6 @@ console.log('Nifty weekly Schedule the task to run every 5 minutes');
 
 
 module.exports = scheduledTask;
+
 
 
